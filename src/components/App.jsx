@@ -1,7 +1,7 @@
-const { Component, useState } = require('react');
-const { Feedback } = require('./Feedback/Feedback');
-const { Statistics } = require('./Statistics/Statistics');
-const { Section } = require('./Section/Section');
+import { useState } from 'react';
+import { Feedback } from './Feedback/Feedback';
+import { Statistics } from './Statistics/Statistics';
+import { Section } from './Section/Section';
 
 export const App = () => {
   // export class App extends Component {
