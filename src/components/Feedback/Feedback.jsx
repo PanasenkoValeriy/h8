@@ -1,9 +1,9 @@
-export const Feedback = ({ onLeaveFeedback }) => {
+export const Feedback = ({ onGood, onBad, onNeutral }) => {
   return (
     <div>
-      <button onClick={() => onLeaveFeedback('good')}>Good</button>
-      <button onClick={() => onLeaveFeedback('neutral')}>Neutral</button>
-      <button onClick={() => onLeaveFeedback('bad')}>Bad</button>
+      <button onClick={onGood}>Good</button>
+      <button onClick={onNeutral}>Neutral</button>
+      <button onClick={onBad}>Bad</button>
     </div>
   );
 };
